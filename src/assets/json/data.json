@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Ejecutivo de Ventas B2B bilingüe",
+        "company": "VICHARA TECHNOLOGIES",
+        "ubication": "Remoto - Cualquier lugar",
+        "salary": "Confidencial",
+        "vacancies": "1 Vacante",
+        "date": "3 days ago",
+        "img": "https://s3-us-west-2.amazonaws.com/peaku-public/business/Company/logo_url/4310/vichara.jpeg",
+        "skills": [
+            "cold prospecting",
+            "business closure",
+            "b2b business relationship"
+        ]
+    },
+    {
+        "name": "Developer Frontend",
+        "company": "COHETE SOFTWARE",
+        "ubication": "Presencial - Medellin",
+        "salary": "2K - 3K COP",
+        "vacancies": "5 Vacantes",
+        "date": "10 days ago",
+        "img": "https://peaku.co/img/company.svg",
+        "skills": [
+            "html",
+            "css",
+            "javascript",
+            "vuejs",
+            "reactjs",
+            "angular"
+        ]
+    },
+    {
+        "name": "Desarrollador Fullstack",
+        "company": "COHETE SOFTWARE",
+        "ubication": "Remoto - Presencial Medellin",
+        "salary": "4K - 5K COP",
+        "vacancies": "6 Vacantes",
+        "date": "8 days ago",
+        "img": "https://s3-us-west-2.amazonaws.com/peaku-public/business/Company/logo_url/45731/Energy_Master_Analytics_logo.png",
+        "skills": [
+            "python",
+            "javascript",
+            "API"           
+        ]
+
+    },
+    {
+        "name": "Desarrollador Backend",
+        "company": "COHETE SOFTWARE",
+        "ubication": "Remoto - Presencial Medellin",
+        "salary": "4K - 5K COP",
+        "vacancies": "2 Vacantes",
+        "date": "23 days ago",
+        "img": "https://peaku.co/img/company.svg",
+        "skills": [
+            "nodejs",
+            "php",
+            "python",
+            "java",
+            "c#",
+            "ruby"
+        ]
+    },
+    {
+        "name": "Product Owner",
+        "company": "SKALO",
+        "ubication": "Hibrido - Remoto -Presencial Medellin",
+        "salary": "3.5K - 4K COP",
+        "vacancies": "1 Vacantes",
+        "date": "5 days ago",
+        "img": "https://s3-us-west-2.amazonaws.com/peaku-public/business/Company/logo_url/48484/skalo.png",
+        "skills": [
+            "scrum",
+            "kanban",
+            "agile",
+            "lean",
+            "product owner"
+        ]
+    },
+    {
+        "name": "Tecnico en Servicios Farmaceuticos",
+        "company": "OFFIMEDICAS S.A",
+        "ubication": "Presencial - CALI",
+        "salary": "Confidencial",
+        "vacancies": "50 Vacantes",
+        "date": "6 days ago",
+        "img": "https://s3-us-west-2.amazonaws.com/peaku-public/business/Company/logo_url/80893/offiemedicas.png",
+        "skills": [
+            "servicio al cliente",
+            "herramientas ofimaticas",
+            "tecnico en farmacia",
+            "tecnico en servicios farmaceuticos"
+        ]
+    }
+]
