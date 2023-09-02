@@ -1,17 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="PeakU logo" src="./assets/Logo-PeakU.png"  width="350" height="180" class="rounded">
-    <Card/>
-  </div>
+  <div id="app" class="app">  
+        <NavBar />
+        <MenuJobs/>
+        <!-- Desde NavSearch se renderiza el componente CardJobs que contiene las tarjetas -->
+        <NavBarSearch />
+        <FooterJobs />
+        </div>
 </template>
 
 <script>
-import Card from './components/CardJobs.vue'
+import NavBar from './components/NavBar.vue'
+import NavBarSearch from './components/NavBarSearch.vue'
+import MenuJobs from './components/MenuJobs.vue'
+import FooterJobs from './components/FooterJobs.vue'
 
 export default {
   name: 'App',
   components: {
-    Card
+    NavBar,
+    NavBarSearch,
+    MenuJobs, 
+    FooterJobs
   }
 }
 </script>
@@ -23,6 +32,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
