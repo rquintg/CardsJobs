@@ -5,6 +5,8 @@
 4. [FAQs](#faqs)
 ### General Info
 ***
+The Data of the cards are located in: assets/json/data.json
+
 This project is for educational purposes only 
 ### Screenshot
 ![Peaku](https://www.uniandinos.org.co/wp-content/uploads/2023/02/Logo-PeakU.png)
