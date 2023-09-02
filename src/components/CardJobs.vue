@@ -1,9 +1,9 @@
 <template>
     <div class="cardJobs">
-        <div class="mx-auto container-fluid w-75">
+        <div class="mx-auto container-fluid">
             <div class="row mt-2">
                 <div class="px-0 col-12">
-                    <div class="card mb-3 border" v-for="(job, index) in jobs" :key="index">
+                    <div class="card job-card mb-3 border" v-for="(job, index) in jobs" :key="index">
 
                         <div class="p-2 p-md-3">
                             <div class="row align-items-center">
@@ -21,8 +21,7 @@
                                                     {{ job.name }}</h2>
                                                 <section itemprop="skills"
                                                     class="pl-md-2 d-inline d-md-inline-flex align-items-center text-truncate">
-                                                    <div
-                                                        class="skill-tag text-truncate border border-dark text-dark text-capitalize"
+                                                    <div class="skill-tag text-truncate border border-dark text-dark text-capitalize"
                                                         v-for="(skill, skillIndex) in job.skills" :key="skillIndex"
                                                         style="font-size: 0.8em; margin-bottom: 0px !important;">
                                                         <span></span>
@@ -102,10 +101,9 @@
                                                 </span>
                                             </div>
                                             <div class="text-truncate col">
-                                                <svg viewBox="0 0 16 16" width="1em" height="1em"
-                                                    focusable="false" role="img" aria-label="calendar3"
-                                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                                    class="bi-calendar3 b-icon bi">
+                                                <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false"
+                                                    role="img" aria-label="calendar3" xmlns="http://www.w3.org/2000/svg"
+                                                    fill="currentColor" class="bi-calendar3 b-icon bi">
                                                     <g>
                                                         <path
                                                             d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z">
@@ -118,9 +116,11 @@
                                                 <span itemprop="datePosted validThrough" class="sr-only">
 
                                                 </span>
-                                                <time >
-                                                    {{job.date}}
+                                                <time>
+                                                    {{ job.date }}
                                                 </time>
+                                            </div>
+
                                         </div>
 
                                     </div>
@@ -140,8 +140,6 @@
         </div>
 
     </div>
-
-</div>
 </template>
 
 <script>
@@ -164,6 +162,9 @@ a {
     font-size: 1.3rem;
     display: inline-block;
 }
+.job-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2)!important;
+}
 .skill-tag {
                 border: 1px solid grey;
                 border-radius: 10px;
@@ -178,6 +179,6 @@ a {
                 padding: 0 .5rem;
                 pointer-events: none;
                 cursor: pointer;
-                transition: all .2s ease
+                transition: all .2s ease-in-out;
             }
 </style>
