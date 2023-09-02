@@ -1,5 +1,19 @@
 [
     {
+        "name": "Desarrollador Fullstack Senior",
+        "company": "KIKI LATAM",
+        "ubication": "Remoto - colombia",
+        "salary": "9M COP",
+        "vacancies": "1 Vacante",
+        "date": "1 days ago",
+        "img": "https://s3-us-west-2.amazonaws.com/peaku-public/business/Company/logo_url/514236/kiki_logistics1_logo.jpg",
+        "skills": [
+            "SQL",
+            "REACT",
+            "NODEJS"
+        ]
+    },
+    {
         "name": "Ejecutivo de Ventas B2B bilingüe",
         "company": "VICHARA TECHNOLOGIES",
         "ubication": "Remoto - Cualquier lugar",
@@ -67,7 +81,7 @@
         "company": "SKALO",
         "ubication": "Hibrido - Remoto -Presencial Medellin",
         "salary": "3.5K - 4K COP",
-        "vacancies": "1 Vacantes",
+        "vacancies": "1 Vacante",
         "date": "5 days ago",
         "img": "https://s3-us-west-2.amazonaws.com/peaku-public/business/Company/logo_url/48484/skalo.png",
         "skills": [
@@ -92,5 +106,45 @@
             "tecnico en farmacia",
             "tecnico en servicios farmaceuticos"
         ]
+    },{
+        "name": "Personal bilingue de hoteleria y turismo",
+        "company": "WerRent",
+        "ubication": "Presencial - Medellin",
+        "salary": "700 - 800 USD",
+        "vacancies": "1 Vacante",
+        "date": "4 days ago",
+        "img": "https://s3-us-west-2.amazonaws.com/peaku-public/business/Company/logo_url/57218/werent.jpeg",
+        "skills": [
+            "English language",
+            "customer service"
+        ]
+    },
+    {
+        "name": "Ejecutivo Comercial B2B    ",
+        "company": "EDU LABAS SAS.",
+        "ubication": "Remoto - colombia",
+        "salary": "2M 3M COP",
+        "vacancies": "2 Vacantes",
+        "date": "6 days ago",
+        "img": "https://s3-us-west-2.amazonaws.com/peaku-public/business/Company/logo_url/312357/Logo-Edu-Labs-Vertical.png",
+        "skills": [
+            "Sourcing",
+            "User Support",
+            "Negotiation Strategy"
+        ]
+    }, {
+        "name": "Desarrollador Fullstack",
+        "company": "COHETE SOFTWARE",
+        "ubication": "Remoto - Presencial Medellin",
+        "salary": "9K - 10K COP",
+        "vacancies": "2 Vacantes",
+        "date": "8 days ago",
+        "img": "https://s3-us-west-2.amazonaws.com/peaku-public/business/Company/logo_url/40668/descarga.png",
+        "skills": [
+            "NodeJS",
+            "Angular",
+            "Java"           
+        ]
+
     }
 ]
